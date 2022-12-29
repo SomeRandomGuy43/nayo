@@ -52,7 +52,7 @@ body {
   width: 42.5%;
   padding: 15px;
   height:500px;
-  border: solid black 0px;
+  border: solid black 1px;
 }
 .row:after {
   content: "";
