@@ -49,10 +49,11 @@ body {
 }
 .column {
   float: left;
-  width: 47.5%;
+  width: 42.5%;
   padding: 15px;
   height:500px;
   border: solid black 0px;
+  margin-left: 50px;
 }
 .row:after {
   content: "";
