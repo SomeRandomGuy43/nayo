@@ -1,18 +1,33 @@
 
 body {
-  background-color:#fffbdb;
+  background-color:#fbeec1;
 }
 .head {
-  background-color: #7ed5f0;
+  background-color: #ffffff;
   text-align: center;
   padding: 20px;
   margin-top: -8px;
   margin-left: -8px;
   margin-right: -8px;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head img {
+  vertical-align: middle;
+  margin-right: 20px;
+  width: 150px;
+}
+.head p {
+  display: inline;
+  text-decoration: none;
+  font-size: 70px;
+  font-family: 'Fuji', sans-serif;
+  font-weight: 600;
 }
 .navi {
-  background-color: #18363E;
+  background-color: #18363e;
   margin-right: -8px;
   margin-left: -8px;
   border: solid black 1px;
@@ -96,17 +111,19 @@ div {
 }
 .navbar {
   overflow: hidden;
-  background-color: rgb(75, 147, 165);
+  background-color: #50ace4;
   margin-left:-8px;
   margin-right:-8px;
   font-size:30px;
   font-family: 'Fuji', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
   float: left;
-  font-size: 20px;
-  color: white;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -119,7 +136,7 @@ div {
 }
 
 .dropdown .dropbtn {
-  font-size: 20px;  
+  font-size: 22px;  
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
@@ -225,7 +242,7 @@ html {
 
 #about {
   border-radius: 25px;
-  background: #ffeace;
+  background-color: #fbeec1;
   padding: 20px;  
 }
 .floatbtn:hover {
@@ -315,11 +332,12 @@ html {
 }
 #artikel {
   border-radius: 25px;
-  background: #ffeace;
+  background: #c4e5ff;
   padding: 20px; 
   height: 500px;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .berita {
   background-color: red;
@@ -332,4 +350,11 @@ html {
 }
 .berita:hover {
   transform: scale(1.1);
+}
+#artikel p {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  font-family: 'Fuji', sans-serif;
 }
