@@ -1,6 +1,6 @@
 
 body {
-  background-color:#fbeec1;
+  background-color:white;
 }
 .head {
   background-color: #ffffff;
@@ -242,7 +242,7 @@ html {
 
 #about {
   border-radius: 25px;
-  background-color: #fbeec1;
+  background-color: white;
   padding: 20px;  
 }
 .floatbtn:hover {
